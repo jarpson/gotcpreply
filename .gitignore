@@ -13,9 +13,15 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+gotcpreply
+gotcpreply_linux
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
 # Go workspace file
 go.work
+
+#hide faile
+.*
+!.git*
